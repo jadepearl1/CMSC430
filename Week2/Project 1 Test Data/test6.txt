@@ -1,0 +1,17 @@
+// Program Containing the New Comment, Modified Identifier 
+//     and Real Literal and Hex and Character Literals
+
+-- This is the new style comment
+
+function main b: integer, c: integer returns integer;
+     a: real is .3;
+     d: real is 5.7;
+     a__1: real is .4e2;
+     ab_c_d: real is 4.3E+1;
+     ab1_cd2: real is 4.5e-1;
+     hex: integer is #2aF;
+     char1: character is 'C';
+     char2: character is '\n';
+begin
+     hex + 2;
+end;

@@ -1,0 +1,27 @@
+// Punctuation symbols
+
+,;() =>
+
+// Identifier
+
+name name123 
+
+// Literals
+
+123 'a'
+
+// Logical operator
+
+&
+
+// Relational operator
+
+<
+
+// Arithmetic operators
+
++ *
+
+// Reserved words
+
+begin case character end endswitch function is integer list of returns switch when

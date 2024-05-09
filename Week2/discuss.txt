@@ -1,0 +1,23 @@
+// Simple program that uses if-else statements
+
+function main a: integer returns character;
+    grade: list of character is ('A', 'B', 'C', 'D', 'F');
+begin
+    if 90 < a then
+        grade(0);
+    else
+        if 80 < a then
+            grade(1);
+        else
+            if 70 < a then
+                grade(2);
+            else
+                if 60 < a then
+                    grade(3);
+                else
+                    grade(4);
+                endif;
+            endif;
+        endif;
+    endif;
+end;

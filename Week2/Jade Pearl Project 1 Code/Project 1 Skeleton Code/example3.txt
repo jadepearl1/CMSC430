@@ -1,0 +1,44 @@
+-- Lexeme detector
+//Punctuations
+
+,:;() =>
+
+// Valid identifiers
+
+name_1
+name_1__a2_ab3
+name01__name9
+
+//Integer literals
+
+0123 456 78 1
+
+//Hexadecimal
+
+#3AF
+
+// Real Literals
+
+123.45 .123 1.2E2 .1e+2 1.2E-2
+
+// Character Literals
+
+'A' '\n' '\t' '\b' '\r' '\f'
+
+// Arithmetic operators
+
++ - * / % ^ ~
+
+// Logical operators
+
+& | !
+
+// Relational operators
+
+= <> > >= < <=
+
+// Reserved words
+
+begin case character else elsif end endfold endif endswitch 
+fold function if integer is left list of others real returns right
+switch then when

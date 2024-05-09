@@ -1,0 +1,15 @@
+// Program Containing the New Operators
+
+function main b: integer, c: integer returns integer;
+     a: integer is 3;
+begin
+    if (a < 2) | (a > 0) & (~b <> 0) then
+        7 - 2 / (9 % 4);
+    else
+        if b >= 2 | b <= 6 & !(c = 1) then
+            7 + 2 * (2 + 4);
+        else
+            a ^ 2;
+        endif;
+    endif;
+end;

@@ -1,0 +1,14 @@
+// Test case with multiple errors on one line
+
+function main returns integer;
+begin
+
+    10 + - 5 # $ (2  * 3) % ^;
+
+    list of integer is (1, 2, 3);
+    function add returns integer;
+    begin
+        if a > b then
+            return a + b;
+        endif
+    en

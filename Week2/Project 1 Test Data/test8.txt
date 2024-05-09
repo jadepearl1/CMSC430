@@ -1,0 +1,44 @@
+-- Punctuation symbols
+
+,:;() =>
+
+// Valid identifiers
+
+name_1
+name_1__a2_ab3
+
+// Invalid identifiers
+
+name___2
+_name3
+name4_
+
+// Integer Literals
+
+23 #3aD
+
+// Real Literals
+
+123.45 .123 1.2E2 .1e+2 1.2E-2
+
+// Character Literals
+
+'A' '\n'
+
+// Logical operators
+
+& | !
+
+// Relational operators
+
+= <> > >= < <=
+
+// Arithmetic operators
+
++ - * / % ^ ~
+
+// Reserved words
+
+begin case character else elsif end endcase endfold endif endswitch 
+fold function if integer is left list of others real returns right
+switch then when
