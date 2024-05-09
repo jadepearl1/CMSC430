@@ -1,0 +1,15 @@
+// Left and Right Fold Statement
+
+
+function main returns integer;
+    a: list of integer is (1, 2, 3);
+begin
+    switch a(1) is
+        case 1 =>
+            fold right - (2,3, 4) endfold;
+        case 2 =>
+            fold left + a endfold;
+        others =>
+            0;
+    endswitch;
+end;

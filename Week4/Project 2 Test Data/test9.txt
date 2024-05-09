@@ -1,0 +1,6 @@
+// Single Parameter Declaration
+
+function main a: integer returns integer;
+begin
+    a + 1;
+end;

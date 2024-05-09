@@ -1,0 +1,6 @@
+// Function with When Statement
+
+function main returns integer;
+begin
+    when 3 < 2 & 6 < 7, 7 * 2 : 7 + 2;
+end;

@@ -1,0 +1,17 @@
+// Error in Variable Declaration
+
+function main a: integer returns integer;
+    b integer is
+        if a > 5 then
+            a * 3;
+        else
+            2 + a;
+        endif;
+    c: real is 3.5;
+begin
+    if a <= 0 then
+        b + 3;
+    else
+        b * 4;
+    endif;
+end;

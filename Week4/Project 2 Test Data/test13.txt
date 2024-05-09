@@ -1,0 +1,21 @@
+// Comprehensive Test with Nested If
+
+function main a: integer, b: character, c: real returns real;
+    d: integer is #8e;
+    e: real is 3.75;
+    f: character is 'A';
+    g: list of integer is (1, 3, 5);
+begin
+    if ~a > 5 & a < 1 & !(c = 5.8 | c <> .7E4) then
+        if c >= 7.5E-2 & c <= 5.2 then
+            when a >= d, a + 2 - 7.9E+2 / 9 * 4 : 8.9;
+        elsif g(1) = a ^ 2 % 3 then
+            a % 2 - 5 / c;
+        else
+            fold left + (1, 2, 3) endfold;
+        endif;
+     else
+         fold right - g endfold;
+     endif;
+end;
+

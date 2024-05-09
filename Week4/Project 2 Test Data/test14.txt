@@ -1,0 +1,18 @@
+// Comprehensive Test with Nested Switch
+
+function main a: integer, b: real returns real;
+    c: integer is 8;
+    d: real is .7E2;
+begin
+    switch a is
+         case 1 => a * 2 / d ^ 2;
+         case 2 => a + 5.3E+2 - b;
+         case 3 =>
+             switch d is
+                 case 1 => a % 2;
+                 others => 9.1E-1;
+             endswitch;
+         case 4 => a / 2 - c;
+         others => a + 4.7 * b;
+    endswitch;
+end;

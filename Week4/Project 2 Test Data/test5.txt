@@ -1,0 +1,7 @@
+// Function with a Real and Character Variables and Literals
+
+function main returns character;
+    a: real is 7.8e-1;
+begin
+    when a < .45, '\n' : 'A';
+end;

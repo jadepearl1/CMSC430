@@ -1,0 +1,11 @@
+// Error in Function Header, Missing Colon
+
+function main a integer returns integer;
+    b: integer is 3 * 2;
+begin
+    if a <= 0 then
+        b + 3;
+    else
+        b * 4;
+    endif;
+end;

@@ -1,0 +1,9 @@
+// Multiple Errors, Error in Case Clause and Missing Others Clause
+
+function main a: integer returns integer;
+begin
+    switch a is
+         case 1 => a 2;
+         case 2 => 5;
+    endswitch;
+end;

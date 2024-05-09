@@ -1,0 +1,6 @@
+// Missing Operator in Expression
+
+function main returns integer;
+begin
+    8 + 2 9 * 3;    
+end;

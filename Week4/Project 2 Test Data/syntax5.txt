@@ -1,0 +1,15 @@
+-- Multiple Errors
+
+function main a integer returns real;
+    b: integer is * 2;
+    c: real is 6.0;
+begin
+    if a > c then
+        b + / .4;
+    else
+        switch b is
+            case => 2;
+            case 2 => c;
+        endswitch;
+    endif;
+end;

@@ -1,0 +1,7 @@
+// Two Parameter Declarations
+
+function main a: integer, b: real returns real;
+    c: real is .7;
+begin
+    a + b * c;
+end;
