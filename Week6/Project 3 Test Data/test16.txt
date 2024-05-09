@@ -1,0 +1,28 @@
+// Nested if statements
+
+function main x: integer, y: integer returns character;
+begin
+    if x > 0 then
+        if y > 0 then
+            '1';
+        elsif y < 0 then
+            '4';
+        else
+            'Y';
+        endif;
+    elsif x < 0 then
+       if y > 0 then
+            '3';
+        elsif y < 0 then
+            '2';
+        else
+            'Y';
+        endif;
+    else
+        if y <> 0 then
+            'X';
+        else
+            'O';
+        endif;
+    endif;
+end;

@@ -1,0 +1,6 @@
+// Test Logical and Relational Operators
+
+function main returns integer;
+begin
+    when !(6 <> 7) & 5 + 4 >= 9 | 6 = 5,  6 + 9 * 3 : 8 - 2 ^ 3;
+end;

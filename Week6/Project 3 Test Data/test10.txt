@@ -1,0 +1,13 @@
+-- Multiple Variable Initializations
+
+function main returns character;
+    b: integer is 5 + 1 - 4;
+    c: real is 2 + 3.7;
+    d: character is 'A';
+begin
+    if b + 1 - c > 0 then
+        d;
+    else
+        '\n';
+    endif;
+end;

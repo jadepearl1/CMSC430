@@ -1,0 +1,7 @@
+// Test Right Fold
+
+function main returns integer;
+    values: list of integer is (3, 2, 1);
+begin
+    fold right - values endfold;
+end;

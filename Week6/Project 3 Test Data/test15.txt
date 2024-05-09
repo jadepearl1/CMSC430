@@ -1,0 +1,22 @@
+// Test that Includes All Statements
+
+function main a: integer, b: real, c: character returns real;
+    d: integer is when a > 0, #A: #A0;
+    e: list of integer is (3, 2, 1);
+    f: integer is 
+           switch a is
+               case 1 => fold left - e endfold;
+               case 2 => fold right - e endfold;
+               others => 0;
+           endswitch;
+    g: integer is 
+           if c = 'A' & b > 0 then
+               a * 2;
+           elsif c = 'B' | b < 0 then
+               (a ^ 2) * 10;
+           else
+               0;
+           endif;
+begin
+    f + (d - 1) % g;
+end;

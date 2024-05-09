@@ -1,0 +1,7 @@
+// Function with Arithmetic Expression using Real Literals
+//     and Hexadecimal Integer Literals
+
+function main returns real;
+begin
+    .83e+2 + 2.5E-1 + (4.3E2 + #aF2) * .01;
+end;

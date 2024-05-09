@@ -1,0 +1,11 @@
+// Function with a Switch Statement
+
+function main returns character;
+    a: integer is 2 * 2 + 1;
+begin
+    switch a is
+        case 1 => 'a';
+        case 2 => 'b';
+        others => 'c';  
+    endswitch;    
+end;

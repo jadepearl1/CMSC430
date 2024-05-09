@@ -1,0 +1,7 @@
+// Function with Character Literal Escape Characters
+
+function main returns character;
+    lines: integer is 60;
+begin
+    when lines < 60, '\n' : '\f';
+end;

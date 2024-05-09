@@ -1,0 +1,10 @@
+// Two parameter declarations
+
+function main a: integer, b: real returns real;
+begin
+    if a < #A then
+        b + 1;
+    else 
+        b - 1;
+    endif;  
+end;

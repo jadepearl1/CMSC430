@@ -1,0 +1,7 @@
+// Function with a List Variable
+
+function main returns integer;
+    primes: list of integer is (2, 3, 5, 7);
+begin
+    primes(1) + primes(2);
+end;

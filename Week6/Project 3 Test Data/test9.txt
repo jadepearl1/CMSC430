@@ -1,0 +1,15 @@
+// Function with an If Statement
+
+function main returns integer;
+    a: integer is 28;
+begin
+    if a < 10 then
+        1;
+    elsif a < 20 then
+        2;
+    elsif a < 30 then
+        3;
+    else
+        4;
+    endif; 
+end;
